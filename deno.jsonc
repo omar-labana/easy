@@ -3,9 +3,11 @@
     "dev": "deno run --watch --allow-all main.ts"
   },
   "imports": {
-    "@/": "./src/",
+    "@/": "./",
+    "@interfaces": "./interfaces/index.ts",
     "citty": "npm:citty@0.1.6",
     "consola": "npm:consola@^3.4.2",
+    "ofetch": "npm:ofetch@^1.4.1",
     "ufo": "npm:ufo@^1.6.1"
   },
   "fmt": {
